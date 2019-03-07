@@ -5,12 +5,12 @@ Feeds2File - F2F
 Write given feed-urls in file *feeds* to a file *latest-news*. Simple script for simple users.
 This tool can be used by Streamer (ex. on Twitch) with OBS (Open Broadcaster Software) to get a newsticker from their favourite feeds.
 
-# Dependencies for linux
+# (minimal version) Dependencies for linux
 ```
-minimum: rustc 1.31.0
-		 cargo 1.31.0
+rustc 1.31.0
+cargo 1.31.0
 ```
-		 
+
 (Windows don't need this, because you can find the latest release in this project. But you can compile this project on your own, too. Follow the linux instructions then.)
 
 # Installation
