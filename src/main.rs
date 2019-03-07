@@ -6,7 +6,7 @@ use url::Url;
 
 // Small Welcome-Text.
 fn main() {
-    println!("Thanks for using this tool. Any contributions are welcome. \nGithub-Project can be find here: https://github.com/iPhysicX/feed2file");
+    println!("Thanks for using this tool. Any contributions are welcome. \nGithub-Project can be find here: https://github.com/iPhysicX/feeds2file");
 	read_in();
 }
 

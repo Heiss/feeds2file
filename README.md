@@ -29,31 +29,34 @@ The executable can be found in the new target-folder. You have to move the feeds
 After this, your folder should be like this (one folder, one executable):
 
 ```
-scripts/
 feeds2file
+linux.sh
+win.bat
 ```
 
 ## Configure
-In the scripts folder, you can find two files. In there you can define the sleeping-time (default: 3600 seconds = 1 hour). 
+The two files linux.sh and win.bat are script files for your OS. In there you can define the sleeping-time (default: 3600 seconds = 1 hour). 
 
 In the main folder, you have to create a file with the name: *feeds*. Open it with your favourite texteditor. In this file you have to place your rss-feeds one per line.
 
 Now your folder should be like this (one folder, one executable, one text file):
 ```
-scripts/
 feeds
 feeds2file
+linux.sh
+win.bat
 ```
 
 ## How to run
-Place the executable in the same folder, where your feeds-file is located and you want to find your newsfeed later. The scripts folder must be there, too. Now you can execute the linux.sh oder win.bat in the scripts folder.
+Place the executable in the same folder, where your feeds-file is located and you want to find your newsfeed later. The script files must be there, too. Now you can execute the linux.sh (for linux) oder win.bat (for windows).
 
 After running the script or the executable one time, your folder should be like this (one folder, one executable, two text files):
 ```
-scripts/
 feeds
 feeds2file
 latest-news
+linux.sh
+win.bat
 ```
 
 In the latest-news file, you can find all your news-items appended with the domain, where the news was posted. Now you can use it further.
