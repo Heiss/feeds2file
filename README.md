@@ -41,7 +41,7 @@ In the main folder, you have to create a file with the name: *feeds*. Open it wi
 
 Now your folder should be like this (one folder, one executable, one text file):
 ```
-feeds
+**feeds**
 feeds2file
 linux.sh
 win.bat
@@ -54,7 +54,7 @@ After running the script or the executable one time, your folder should be like 
 ```
 feeds
 feeds2file
-latest-news
+**latest-news**
 linux.sh
 win.bat
 ```
