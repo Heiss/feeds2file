@@ -1,4 +1,6 @@
+# Set here the value for the sleep timer
 time=3600
+
 while :
 do 
 	echo "Start crawling."

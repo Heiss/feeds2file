@@ -1,5 +1,7 @@
 @echo off
+:: Set here the value for the sleep timer
 SET time=3600
+
 :while
 	echo "Start crawling."
 	start ../feed2file.exe
