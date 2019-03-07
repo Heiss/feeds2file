@@ -3,7 +3,7 @@ Feeds2File - F2F
 -------------------------
 
 Write given feed-urls in file *feeds* to a file *latest-news*. Simple script for simple users.
-This tool can be used by Streamer (ex. on Twitch) with OBS (Open Broadcaster Software) to get a newsticker from their favourite feeds.
+This tool can be used by Streamer (ex. on Twitch) with OBS (Open Broadcaster Software) to get a newsticker from their favourite feeds. The tool writes all items from given feeds into one file one news per line ascending sorted by the published dates. So the latest news have the highest line number.
 
 # (minimal version) Dependencies for linux
 ```
@@ -38,12 +38,14 @@ Place the executable in the same folder, where your feeds-file is located and yo
 This little scripts contain a while-loop, so the feed2file executable will be run forever. This is a convenient workaround, so the executable don't need the while-loop. If you want to run the program on your own and don't need the while-loop, you can run the feed2file program. Otherwise run the script for your OS with the while-loop.
 
 # Troubleshooting
-```
-The linux.sh cannot be executed.
-```
+## The linux.sh cannot be executed.
 
 Then you have forgotten to make it executable with the following command:
 ```
 chmod +x linux.sh
 ```
+
+### How i can get a newsticker in my obs-stream?
+
+You have to add your scene and Text (GDI+) source. There you have to set the new *latest-news* file as a text file. Now you can enable the chatlog mode and set the maximum number of news, which will be shown in your newsticker. Now you can scroll them with the scrolling-filter.
 
