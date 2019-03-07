@@ -2,7 +2,7 @@ Feeds2File - F2F
 
 -------------------------
 
-Write given feed-urls in file *feeds* to a file *latest-news*. Simple script for simple users.
+Write given feed-urls in file *feeds* to a file *latest-news*. Simple script for simple users. No webservice needed.
 This tool can be used by Streamer (ex. on Twitch) with OBS (Open Broadcaster Software) to get a newsticker from their favourite feeds. The tool writes all items from given feeds into one file one news per line ascending sorted by the published dates. So the latest news have the highest line number.
 
 # (minimal version) Dependencies for linux
