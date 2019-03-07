@@ -1,5 +1,5 @@
 [package]
-name = "feed2file"
+name = "feeds2file"
 version = "0.1.0"
 authors = ["iPhysicX <physicx@netzmuffel.de>"]
 edition = "2018"
