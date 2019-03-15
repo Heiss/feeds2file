@@ -79,3 +79,4 @@ chmod +x linux.sh
 
 You have to add your scene and Text (GDI+) source. There you have to set the new *latest-news* file as a text file. Now you can enable the chatlog mode and set the maximum number of news, which will be shown in your newsticker. Now you can scroll them with the scrolling-filter.
 
+Or you use and customize the latest-news.html with the browser-plugin. This is an easy way to integrate the feeds in your stream.
