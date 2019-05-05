@@ -20,9 +20,9 @@
 
 		$.fn.ticker.defaults =  {
 			controls: false, //show controls, to be implemented
-			interval: 4500, //interval to show next item
+			interval: 8500, //interval to show next item
 			effect: "fadeIn", // available effects: fadeIn, slideUp, slideDown
-			duration: 400 //duration of the change to the next item
+			duration: 500 //duration of the change to the next item
 		};
 
 		var o = $.extend({}, $.fn.ticker.defaults, options);
